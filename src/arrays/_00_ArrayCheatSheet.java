@@ -32,22 +32,22 @@ public class _00_ArrayCheatSheet {
 			n = random.nextInt(50) + 1;
 		}
 		//8. without printing the entire array, print only the smallest number in the array
-		for (int p  =  0; p < i.length;  p++) {
+		/*for (int p  =  0; p < i.length;  p++) {
 			if(i[p]<small) {
 				small = i[p];
 			}
 		}
-		System.out.println(small);
+		System.out.println(small);*/
 		//9 print the entire array to see if step 8 was correct
 			/*for (int q = 0; q < i.length; q++) {
 				System.out.println(i[q]);
 			}*/
 		//10. print the largest number in the array.
-			/*for (int k  =  0; k < i.length;  k++) {
+			for (int k  =  0; k < i.length;  k++) {
 				if(i[k]>small) {
 					small = i[k];
 				}
 			}
-			System.out.println(small);*/
+			System.out.println(small);
 	}
 }
